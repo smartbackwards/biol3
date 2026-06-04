@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# generated at runtime — not needed on the other machine
+data/
+database/
+results/
+my_photos/
+
+# pretrained model cache (re-downloaded automatically)
+pretrained_models/
+.deepface/
