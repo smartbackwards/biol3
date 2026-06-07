@@ -1,0 +1,9 @@
+Experiment 3 — Occlusion Challenge
+=======================================================
+Baseline EER (clean): 0.0500 (5.00%)
+Each occ-type group:  ~1250 trials
+
+  occ=mask      no-fix    EER=0.4912 (49.12%)  Δ=+44.12pp  n=1250
+  occ=mask      robust    EER=0.4256 (42.56%)  Δ=+37.56pp  n=1250
+  occ=glasses   no-fix    EER=0.0736 (7.36%)  Δ=+2.36pp  n=1250
+  occ=glasses   robust    EER=0.0736 (7.36%)  Δ=+2.36pp  n=1250

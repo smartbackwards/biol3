@@ -23,7 +23,7 @@ from collections import defaultdict
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 SCRIPT_DIR   = Path(__file__).parent.resolve()
-L1_SUBSET    = SCRIPT_DIR / ".." / "L1" / "facial_auth" / "celeba_subset"
+L1_SUBSET    = SCRIPT_DIR / ".." / "facial_auth" / "celeba_subset"
 IDENTITY_TXT = L1_SUBSET / "identity_subset.txt"
 IMG_DIR      = L1_SUBSET / "img_align_celeba"
 

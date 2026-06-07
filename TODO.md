@@ -63,7 +63,9 @@ python enroll_member.py --name "Name 3" --photos_dir my_photos/person3/
 ```
 
 Appends to the existing `database/embeddings.pkl`.
-
+python enroll_member.py --name "bartek m" --photos_dir my_photos/bm
+python enroll_member.py --name "bartek t" --photos_dir my_photos/bt
+python enroll_member.py --name "krzysiek" --photos_dir my_photos/ks
 ---
 
 ## 6. Run experiments
@@ -114,3 +116,6 @@ python demo.py <path_to_image.jpg> <identity_id> --simulate glasses
 ```
 
 Use one of your own enrolled photos + your identity id for the live demo.
+
+
+conda env create -f bio64_env.yml

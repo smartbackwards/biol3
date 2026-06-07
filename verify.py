@@ -21,7 +21,7 @@ from deepface import DeepFace
 DB_PATH           = "database/embeddings.pkl"
 MODEL_NAME        = "ArcFace"
 DEFAULT_THRESHOLD = 0.40    # cosine similarity; experiments calibrate the EER threshold
-BACKENDS          = ("retinaface", "mtcnn", "ssd", "opencv")
+BACKENDS = ("mtcnn", "ssd", "opencv", "retinaface")
 
 _db_cache = None
 
@@ -71,7 +71,7 @@ def get_embedding(img: np.ndarray, enhance: bool = False,
     if enhance:
         img = enhance_low_res(img)
 
-    backends = BACKENDS if robust else ("retinaface",)
+    backends = BACKENDS if robust else (BACKENDS[0],)
 
     for backend in backends:
         try:

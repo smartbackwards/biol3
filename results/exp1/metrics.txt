@@ -1,0 +1,9 @@
+Experiment 1 — Clean Baseline
+==================================================
+Trials      : 1000  (500 genuine + 500 impostor)
+EER         : 0.0500  (5.00%)
+EER thr     : 0.2472
+FAR @ EER   : 0.0500
+FRR @ EER   : 0.0500
+TAR @ EER   : 0.9500
+Avg latency : 293.4 ms

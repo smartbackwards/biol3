@@ -1,0 +1,11 @@
+Experiment 2 — Low-Resolution Challenge
+=======================================================
+Baseline EER (clean): 0.0500 (5.00%)
+Each factor group:    ~833 trials
+
+  factor=2x  no-fix    EER=0.0564 (5.64%)  Δ=+0.64pp  n=834
+  factor=2x  enhanced  EER=0.0552 (5.52%)  Δ=+0.52pp  n=834
+  factor=4x  no-fix    EER=0.0887 (8.87%)  Δ=+3.87pp  n=834
+  factor=4x  enhanced  EER=0.0839 (8.39%)  Δ=+3.39pp  n=834
+  factor=8x  no-fix    EER=0.4736 (47.36%)  Δ=+42.36pp  n=832
+  factor=8x  enhanced  EER=0.4639 (46.39%)  Δ=+41.39pp  n=832
